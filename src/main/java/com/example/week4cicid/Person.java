@@ -22,5 +22,5 @@ public class Person {
     private String position;
     @NotBlank(message="Cannot enter nothing")
     private String department;
-
+      
 }
