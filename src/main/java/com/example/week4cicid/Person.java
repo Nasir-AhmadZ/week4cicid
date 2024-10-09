@@ -18,7 +18,7 @@ public class Person {
     private int age;
     @Email(message="Invalid Email")
     private String email;
-    @Max (value=20,message ="Cannot enter more than 20 characters")
+    @NotBlank(message="Cannot enter nothing")
     private String position;
     @NotBlank(message="Cannot enter nothing")
     private String department;
